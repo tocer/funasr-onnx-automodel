@@ -1,0 +1,38 @@
+[project]
+name = "funasr-onnx-automodel"
+version = "0.1.0"
+description = "AutoModel wrapper for funasr-onnx with unified VAD→ASR→Punc pipeline"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "tocer", email = "tocer.deng@gmail.com" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "funasr-onnx",
+    "librosa",
+    "numpy",
+    "modelscope",
+    "jieba",
+    "onnxruntime",
+]
+
+[project.urls]
+Homepage = "https://github.com/tocer/funasr-onnx-automodel"
+Repository = "https://github.com/tocer/funasr-onnx-automodel"
+Bug Tracker = "https://github.com/tocer/funasr-onnx-automodel/issues"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
