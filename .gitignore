@@ -28,6 +28,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# uv
-uv.lock
