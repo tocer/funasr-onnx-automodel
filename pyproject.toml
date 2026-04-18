@@ -9,7 +9,6 @@ authors = [
     { name = "tocer", email = "tocer.deng@gmail.com" },
 ]
 classifiers = [
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
@@ -31,7 +30,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/tocer/funasr-onnx-automodel"
 Repository = "https://github.com/tocer/funasr-onnx-automodel"
-Bug Tracker = "https://github.com/tocer/funasr-onnx-automodel/issues"
+"Bug Tracker" = "https://github.com/tocer/funasr-onnx-automodel/issues"
 
 [build-system]
 requires = ["setuptools>=68.0"]
